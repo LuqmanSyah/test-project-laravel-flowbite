@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class=" pt-24 px-6 mx-auto max-w-screen-xl">
+    <section class="pt-24 px-6 mx-auto max-w-screen-xl">
         {{-- Jumbotron --}}
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:w-[970px]">
             <h1
@@ -30,7 +30,7 @@
         <h3 class="font-bold text-3xl md:text-4xl lg:text-5xl mb-7 text-gray-900 dark:text-white">
             Buku Terbaru
         </h3>
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 items-center">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
                 <a href="#">
