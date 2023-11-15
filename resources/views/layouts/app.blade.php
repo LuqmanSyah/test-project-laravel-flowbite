@@ -17,7 +17,7 @@
     {{-- End --}}
 
     {{-- Content --}}
-    <main class="min-h-screen">
+    <main class="min-h-screen bg-white dark:bg-gray-900">
         @yield('content')
     </main>
     {{-- End --}}

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="bg-white dark:bg-gray-900 pt-24 px-6">
+    <section class=" pt-24 px-6 mx-auto max-w-screen-xl">
         {{-- Jumbotron --}}
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:w-[970px]">
             <h1
@@ -27,14 +27,30 @@
         {{-- End --}}
 
         {{-- New Book --}}
-        <h3 class="font-bold text-3xl md:text-4xl lg:text-5xl mb-5 text-gray-900 dark:text-white">
+        <h3 class="font-bold text-3xl md:text-4xl lg:text-5xl mb-7 text-gray-900 dark:text-white">
             Buku Terbaru
         </h3>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 items-center">
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
                 <a href="#">
-                    <img class="rounded-t-lg object-cover" src="{{ asset('images/buku.jpg') }}" alt="buku" />
+                    <img class="h-auto max-w-full rounded-t-lg" src="{{ asset('images/buku.jpg') }}" alt="buku" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Buku Baru</h5>
+                    </a>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Lihat Selengkapnya
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
+                <a href="#">
+                    <img class="h-auto max-w-full rounded-t-lg" src="{{ asset('images/buku2.jpg') }}" alt="buku" />
                 </a>
                 <div class="p-5">
                     <a href="#">
@@ -50,7 +66,7 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
                 <a href="#">
-                    <img class="rounded-t-lg object-cover" src="{{ asset('images/buku2.jpg') }}" alt="buku" />
+                    <img class="h-auto max-w-full rounded-t-lg" src="{{ asset('images/buku3.jpg') }}" alt="buku" />
                 </a>
                 <div class="p-5">
                     <a href="#">
@@ -66,7 +82,7 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
                 <a href="#">
-                    <img class="rounded-t-lg object-cover" src="{{ asset('images/buku3.jpg') }}" alt="buku" />
+                    <img class="h-auto max-w-full rounded-t-lg" src="{{ asset('images/buku4.jpg') }}" alt="buku" />
                 </a>
                 <div class="p-5">
                     <a href="#">
@@ -82,7 +98,7 @@
             <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-fit">
                 <a href="#">
-                    <img class="rounded-t-lg object-cover" src="{{ asset('images/buku4.jpg') }}" alt="buku" />
+                    <img class="h-auto max-w-full rounded-t-lg" src="{{ asset('images/buku5.jpg') }}" alt="buku" />
                 </a>
                 <div class="p-5">
                     <a href="#">
